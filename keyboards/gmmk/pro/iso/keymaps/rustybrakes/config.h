@@ -29,8 +29,3 @@
     #define RGB_DISABLE_WHEN_USB_SUSPENDED
 #endif
 
-// add fifth layer for colemak  -- set "COLEMAK_LAYER_ENABLE = yes" in rules.mk to enable
-#if defined COLEMAK_LAYER_ENABLE
-    #define DYNAMIC_KEYMAP_LAYER_COUNT 5
-    #define _COLEMAK 4
-#endif // COLEMAK_LAYER_ENABLE
