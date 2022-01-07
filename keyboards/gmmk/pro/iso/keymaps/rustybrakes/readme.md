@@ -47,9 +47,7 @@ IDLE_TIMEOUT_ENABLE = yes
 INVERT_NUMLOCK_INDICATOR
     - inverts the Num lock indicator, LED is on when num lokc is off
 
-COLEMAK_LAYER_ENABLE = yes
-    - Enabled optional 5th layer for COLEMAK layout
-    - Use Shift and encoder to enter 5th layer, right led indicator lights up BLUE
+
     
 ## All layers diagram
 Default layer

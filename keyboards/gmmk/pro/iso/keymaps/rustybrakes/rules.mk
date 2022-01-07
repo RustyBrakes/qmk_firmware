@@ -8,7 +8,6 @@ IDLE_TIMEOUT_ENABLE = yes
 STARTUP_NUMLOCK_ON = yes
 ENCODER_DEFAULTACTIONS_ENABLE = no
 
-COLEMAK_LAYER_ENABLE = yes  #Enable Colemak layer / set to no to disable
 INVERT_NUMLOCK_INDICATOR = yes
 
 SRC += jonavin.c
@@ -30,9 +29,6 @@ ifeq ($(strip $(IDLE_TIMEOUT_ENABLE)), yes)
 endif
 ifeq ($(strip $(STARTUP_NUMLOCK_ON)), yes)
     OPT_DEFS += -DSTARTUP_NUMLOCK_ON
-endif
-ifeq ($(strip $(COLEMAK_LAYER_ENABLE)), yes)
-    OPT_DEFS += -DCOLEMAK_LAYER_ENABLE
 endif
 ifeq ($(strip $(EMOTICON_ENABLE)), yes)
     OPT_DEFS += -DEMOTICON_ENABLE
