@@ -1,5 +1,5 @@
-
-/* Copyright 2021 Jonavin Eng @Jonavin
+/* Copyright 2022 RustyBrakes
+   Copyright 2021 Jonavin Eng @Jonavin (source keymap)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
 #include QMK_KEYBOARD_H
-#include "jonavin.h"
+#include "rustybrakes.h"
 
 
 #ifdef TD_LSFT_CAPSLOCK_ENABLE

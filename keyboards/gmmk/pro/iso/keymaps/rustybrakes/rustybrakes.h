@@ -1,5 +1,5 @@
-
-/* Copyright 2021 Jonavin Eng @Jonavin
+/* Copyright 2022 RustyBrakes
+   Copyright 2021 Jonavin Eng @Jonavin (source keymap)
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
