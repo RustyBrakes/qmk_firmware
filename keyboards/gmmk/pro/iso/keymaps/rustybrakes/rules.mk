@@ -10,7 +10,7 @@ ENCODER_DEFAULTACTIONS_ENABLE = no
 
 INVERT_NUMLOCK_INDICATOR = yes
 
-SRC += jonavin.c
+SRC += rustybrakes.c
 ifdef ENCODER_ENABLE
 	# include encoder related code when enabled
 	ifeq ($(strip $(ENCODER_DEFAULTACTIONS_ENABLE)), yes)
@@ -19,7 +19,7 @@ ifdef ENCODER_ENABLE
 	ifeq ($(strip $(ALTTAB_SCROLL_ENABLE)), yes)
 		OPT_DEFS += -DALTTAB_SCROLL_ENABLE
 	endif
-	SRC += jonavin_encoder.c
+	SRC += rustybrakes_encoder.c
 endif
 ifeq ($(strip $(TD_LSFT_CAPSLOCK_ENABLE)), yes)
     OPT_DEFS += -DTD_LSFT_CAPSLOCK_ENABLE
