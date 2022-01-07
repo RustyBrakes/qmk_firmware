@@ -1,6 +1,6 @@
 /* Copyright 2022 RustyBrakes
  * Copyright 2021 Jonavin Eng (source keymap)
- 
+
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -18,7 +18,7 @@
 #ifdef RGB_MATRIX_ENABLE
 
     // Custom RGB Colours
-    #define RGB_GODSPEED 0x00, 0xE4, 0xFF // colour for matching keycaps
+    #define RGB_DARKGLOW 0x80, 0x65, 0x00 // Dark Yellow
     #define RGB_NAUTILUS 0x00, 0xA4, 0xA9 // Naurilus Font colours
 
     // RGB LED locations

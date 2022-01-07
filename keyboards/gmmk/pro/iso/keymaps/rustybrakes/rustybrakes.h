@@ -104,8 +104,8 @@ enum custom_user_keycodes {
 
 #ifdef RGB_MATRIX_ENABLE
 //RGB custom colours
-    #define RGB_GODSPEED 0x00, 0xE4, 0xFF // colour for matching keycaps
-    #define RGB_NAUTILUS 0x00, 0xA4, 0xA9 // Nautilus Font colours
+     #define RGB_DARKGLOW 0x80, 0x65, 0x00 // Dark Yellow
+     #define RGB_NAUTILUS 0x00, 0xA4, 0xA9 // Nautilus Font colours
 
     void activate_rgb_nightmode (bool turn_on);
     bool get_rgb_nightmode(void);
