@@ -58,6 +58,3 @@ Fn Layer
 
 Layer 2 (Caps Lock Mod)
 ![image](https://user-images.githubusercontent.com/71780717/124177683-8b231a00-da7e-11eb-9434-e2475f679a54.png)
-
-Optional COLEMAK layer
-![image](https://user-images.githubusercontent.com/71780717/131235050-980d2f54-2d23-4ae8-a83f-9fcdbe60d6cb.png)
