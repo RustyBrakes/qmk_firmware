@@ -3,7 +3,6 @@ MOUSEKEY_ENABLE = no
 TAP_DANCE_ENABLE = yes
 BOOTMAGIC_ENABLE = yes      # Enable Bootmagic Lite
 
-TD_LSFT_CAPSLOCK_ENABLE = yes
 IDLE_TIMEOUT_ENABLE = yes
 STARTUP_NUMLOCK_ON = yes
 ENCODER_DEFAULTACTIONS_ENABLE = no
@@ -20,9 +19,6 @@ ifdef ENCODER_ENABLE
 		OPT_DEFS += -DALTTAB_SCROLL_ENABLE
 	endif
 	SRC += rustybrakes_encoder.c
-endif
-ifeq ($(strip $(TD_LSFT_CAPSLOCK_ENABLE)), yes)
-    OPT_DEFS += -DTD_LSFT_CAPSLOCK_ENABLE
 endif
 ifeq ($(strip $(IDLE_TIMEOUT_ENABLE)), yes)
     OPT_DEFS += -DIDLE_TIMEOUT_ENABLE

@@ -43,9 +43,6 @@ STARTUP_NUMLOCK_ON = yes
 ENCODER_DEFAULTACTIONS_ENABLE = yes
 - Enabled default encoder funtions
 
-TD_LSFT_CAPSLOCK_ENABLE = yes
-- This will enable double tap on Left Shift to toggle CAPSLOCK when using KC_LSFTCAPS
-
 IDLE_TIMEOUT_ENABLE = yes
 - Enables Timer functionality; for RGB idle timeouts that can be changed dynamically
 
