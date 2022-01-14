@@ -5,10 +5,8 @@ This keymap was hugely based on the keymap by **@Jonavin**, you could almost cal
 - Four total layers, with scrolling `LShift` + `Rotary Encoder`
 - Win key lock using `Fn` + `Win` like in Glorious Core firmware
 - Add Scroll Lock, Break, NumLock to Fn layer
-- Layer 2 mod on Caps Lock with double-tap to switch to this layer, double tap to switch back
 - Layer 2 provides arrows on WASD and additional nav keys + right hand numpad with 00; an be used for Alt Code entry
-- Layer 2 left spacebar Backspace
-- add double tap of Left Shift to toggle Caps Lock
+- Layer 2 PgUp, PgDn and End keys remapped to F13, F14 and F15 for macro mapping (try AutoHotkey!)
 
 Additional encoder functionality:
 - FN Layer - change rgb idle timeout
